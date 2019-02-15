@@ -1,3 +1,12 @@
+########################################################
+## Clean up features data collected from Accelerometer/Gyrometer 
+## from datasource to be in format that will be used for later analysis
+##
+## To run program: source("run_analysis.R")
+## Output: tidy_data.csv
+######################################################
+
+# import neccesary library
 library(tidyr)
 library(plyr)
 library(dplyr)
@@ -31,8 +40,6 @@ get_clean_feature_name <- function(name){
     name <- gsub("\\(.*\\)", "", name)		
     name <- gsub("Acc", "_acc", name) 
     name <- gsub("BodyBody", "Body", name) 
-    #name <- gsub("Body", "body", name) 
-    #name <- gsub("Gravity", "gravity", name) 	
     name <- gsub("Gyro", "_gyro", name) 		
     name <- gsub("Jerk", "_jerk", name) 
     name <- gsub("Mag", "_mag", name) 		

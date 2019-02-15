@@ -107,51 +107,51 @@ The angular velocity(tbody_gyro) were derived in time to obtain Jerk signals. Es
 
 -----------------------------------
 The magnitude of body linear acceleration(tbody_acc) signals were calculated using the Euclidean norm. Estimated value from signal by mean.
-- tbody_acc_mag_mean()
+- tbody_acc_mag_mean
 
 -----------------------------------
 The magnitude of body linear acceleration(tbody_acc) signals were calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- tbody_acc_mag_std()
+- tbody_acc_mag_std
 
 -----------------------------------
 The magnitude of gravity acceleration(tGravity) signals were calculated using the Euclidean norm. Estimated value from signal by mean.
-- tgravity_acc_mag_mean()
+- tgravity_acc_mag_mean
 
 -----------------------------------
 The magnitude of gravity acceleration(tGravity) signals were calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- tgravity_acc_mag_std()
+- tgravity_acc_mag_std
 
 -----------------------------------
 The magnitude of Jerk signal from body linear acceleration(tbody_acc_jerk) were calculated using the Euclidean norm. Estimated value from signal by mean.
-- tbody_acc_jerk_mag_mean()
+- tbody_acc_jerk_mag_mean
 
 -----------------------------------
 The magnitude of Jerk signal from body linear acceleration(tbody_acc_jerk) were calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- tbody_acc_jerk_mag_std()
+- tbody_acc_jerk_mag_std
 
 -----------------------------------
 The magnitude of gravity acceleration(tgravity_acc_jerk) signals were calculated using the Euclidean norm. Estimated value from signal by mean.
-- tgravity_acc_mag_mean()
+- tgravity_acc_mag_mean
 
 -----------------------------------
 The magnitude of gravity acceleration(tgravity_acc_jerk) signals were calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- tgravity_acc_mag_std()
+- tgravity_acc_mag_std
 
 -----------------------------------
 The magnitude of angular velocity(tbody_gyro) signals were calculated using the Euclidean norm. Estimated value from signal by mean.
-- tbody_gyro_mag_mean()
+- tbody_gyro_mag_mean
 
 -----------------------------------
 The magnitude of angular velocity(tbody_gyro) signals were calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- tbody_gyro_mag_std()
+- tbody_gyro_mag_std
 
 -----------------------------------
 The magnitude of Jerk signal from angular velocity(tbody_gyro_jerk) were calculated using the Euclidean norm. Estimated value from signal by mean.
-- tbody_gyro_jerk_mag_mean()
+- tbody_gyro_jerk_mag_mean
 
 -----------------------------------
 The magnitude of Jerk signal from angular velocity(tbody_gyro_jerk) were calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- tbody_gyro_jerk_mag_std()
+- tbody_gyro_jerk_mag_std
 
 
 ### Frequency domain
@@ -192,34 +192,34 @@ Fast Fourier Transform(FFT) was applied to angular velocity(tbody_gyro) signals 
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to the magnitude of accelerometer signal(tbody_acc_mag) which calculated using the Euclidean norm. Estimated value from signal by mean.
-- fbody_acc_mag_mean()
+- fbody_acc_mag_mean
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to the magnitude of accelerometer signal(tbody_acc_mag) which calculated using the Euclidean norm. Estimated value from signal by standard deviation.
-- fbody_acc_mag_std()
+- fbody_acc_mag_std
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to Magnitude of Jerk signal from body linear acceleration(tbody_acc_jerk) in XYZ direction using the Euclidean norm. Estimated value from signal by mean.
-- fbody_acc_jerk_mag_mean()
+- fbody_acc_jerk_mag_mean
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to Magnitude of Jerk signal from body linear acceleration(tbody_acc_jerk) in XYZ direction using the Euclidean norm. Estimated value from signal by standard deviation.
-- fbody_acc_jerk_mag_std()
+- fbody_acc_jerk_mag_std
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to Magnitude of gyrometer signal using the Euclidean norm. Estimated value from signal by mean.
-- fbody_gyro_mag_mean()
+- fbody_gyro_mag_mean
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to Magnitude of gyrometer signal using the Euclidean norm. Estimated value from signal by standard deviation.
-- fbody_gyro_mag_std()
+- fbody_gyro_mag_std
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to Magnitude of Jerk signal from gyrometer(tbody_gyro_jerk) signals using the Euclidean norm. Estimated value from signal by mean.
-- fbody_gyro_jerk_mag_mean()
+- fbody_gyro_jerk_mag_mean
 
 -----------------------------------
 Fast Fourier Transform(FFT) was applied to Magnitude of Jerk signal from gyrometer(tbody_gyro_jerk) signals using the Euclidean norm. Estimated value from signal by standard deviation.
-- fbody_gyro_jerk_mag_std()
+- fbody_gyro_jerk_mag_std
 
 -----------------------------------

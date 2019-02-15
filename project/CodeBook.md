@@ -8,7 +8,7 @@ Data collected from the experiments that have been carried out with a group of 3
 5. STANDING
 6. LAYING.
 
-#### Description
+## Description
 
 Original data were collected from group of persons wearing a smartphone(Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope to captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz. The experiments have been video recored and label the data manually. The obtained data set has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% of the test data.
 
@@ -23,21 +23,21 @@ All features which calculated from process mention above are available at
 * Datasource: [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 _File descriptions from datasource using for analysis:_
-*_train/X_train.txt:_ each activity contain 561 features which is randomly selected (70% of overall data) using as training dataset
-*_train/y_train.txt:_ label activity for each training data
-*_train/subject_train.txt:_ label person who perform activity for each training data
+- _train/X_train.txt:_ each activity contain 561 features which is randomly selected (70% of overall data) using as training dataset
+- _train/y_train.txt:_ label activity for each training data
+- _train/subject_train.txt:_ label person who perform activity for each training data
 
-*_test/X_test.txt:_ each activity contain 561 features which is randomly selected (70% of overall data) using as testing dataset
-*_test/y_test.txt:_ label activity for each testing data
-*_test/subject_test.txt:_ label person who perform activity for each testing data
+- _test/X_test.txt:_ each activity contain 561 features which is randomly selected (70% of overall data) using as testing dataset
+- _test/y_test.txt:_ label activity for each testing data
+- _test/subject_test.txt:_ label person who perform activity for each testing data
 
-*_activity_labels.txt:_ full activity name which refer by activity index in label activity data
-*_features.txt: full_ description of all features available in original data
+- _activity_labels.txt:_ full activity name which refer by activity index in label activity data
+- _features.txt:_ full description of all features available in original data
 
-#### Tidy data(filter only specify measurement)
+## Tidy data(filter only specify measurement)
 From all features available in training/testing data set. Training and testing are merged as one data set containing information of features, subject and activity. Extracts only the measurement on the mean and standard deviation for each measurement. Finally, calculated average of each measurement for each activity and subject. Result in "tidy_data.txt"
 
-#### Naming features for tidy data
+## Naming features for tidy data
 From 561 features detail available in "features.txt". Name of features using in each measurement of tidy data are transformed from feature description by the following methods
 1. replace "-" with "_"
 2. remove all parameters contain in breacket "()"
@@ -50,8 +50,8 @@ From 561 features detail available in "features.txt". Name of features using in 
 9. word "body" mean using data from accelerometer(body)
 10. word "gravity" mean using data from accelerometer(gravity)
 
-#### Feature description selected for tidy data
-###### Time Domain
+## Feature description selected for tidy data
+### Time Domain
 Time domain signal of accelerometer in XYZ direction. Using low pass Butherworth filter to seperate body(tbody_acc) and gravity(tgravity_acc) signal. Estimated value from signal by mean.
 - tbody_acc_mean_x
 - tbody_acc_mean_y
@@ -154,7 +154,7 @@ The magnitude of Jerk signal from angular velocity(tbody_gyro_jerk) were calcula
 - tbody_gyro_jerk_mag_std()
 
 
-###### Frequency domain
+### Frequency domain
 Fast Fourier Transform(FFT) was applied to time domain signal of accelormeter(tbody_acc) in XYZ direction. Using low pass Butherworth filter to seperate body(tbody_acc) and gravity(tgravity_acc) signal. Estimated value from signal by mean.
 - fbody_acc_mean_x
 - fbody_acc_mean_y

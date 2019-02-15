@@ -5,21 +5,21 @@ To collect, work with and clean dataset. To prepare tidy data that can be used f
 * Datasource: [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 * Output data: tidy_data.csv
 
-#### To run analysis
+## To run analysis
 ```R
 source("run_analysis.R")
 ```
 
-#### Require library
+## Require library
 > tidyr, plyr, dplyr, data.table
 
-#### Files
-* CODEBOOKS.txt - Description of collected data
-* README.txt - Detail of analysis process.
-* tidy_data.txt - tidy data which is output file from analysis.
-* run_analysis.R - R script to perform analysis.
+## Files
+* _CODEBOOKS.txt:_ Description of collected data
+* _README.txt:_ Detail of analysis process.
+* _tidy_data.txt:_ tidy data which is output file from analysis.
+* _run_analysis.R:_ R script to perform analysis.
 
-#### Steps of analysis
+## Steps of analysis
 1. download original dataset
 2. unzip original dataset.
 3. load all available activities info data from "activity_labels.txt"

@@ -20,19 +20,19 @@ Finally, a Fast Fourier Transform(FFT) was applied to some of these signals are 
 
 #### All features available
 All features which calculated from process mention above are available at 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Datasource: [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
-file descriptions for analysis:
-train/X_train.txt: each activity contain 561 features which is randomly selected (70% of overall data) using as training dataset
-train/y_train.txt: label activity for each training data
-train/subject_train.txt: label person who perform activity for each training data
+_File descriptions from datasource using for analysis:_
+*_train/X_train.txt:_ each activity contain 561 features which is randomly selected (70% of overall data) using as training dataset
+*_train/y_train.txt:_ label activity for each training data
+*_train/subject_train.txt:_ label person who perform activity for each training data
 
-test/X_test.txt: each activity contain 561 features which is randomly selected (70% of overall data) using as testing dataset
-test/y_test.txt: label activity for each testing data
-test/subject_test.txt: label person who perform activity for each testing data
+*_test/X_test.txt:_ each activity contain 561 features which is randomly selected (70% of overall data) using as testing dataset
+*_test/y_test.txt:_ label activity for each testing data
+*_test/subject_test.txt:_ label person who perform activity for each testing data
 
-activity_labels.txt: full activity name which refer by activity index in label activity data
-features.txt: full description of all features available in original data
+*_activity_labels.txt:_ full activity name which refer by activity index in label activity data
+*_features.txt: full_ description of all features available in original data
 
 #### Tidy data(filter only specify measurement)
 From all features available in training/testing data set. Training and testing are merged as one data set containing information of features, subject and activity. Extracts only the measurement on the mean and standard deviation for each measurement. Finally, calculated average of each measurement for each activity and subject. Result in "tidy_data.txt"

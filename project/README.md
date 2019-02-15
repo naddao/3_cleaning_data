@@ -1,11 +1,14 @@
 # Project Description
 To collect, work with and clean dataset. To prepare tidy data that can be used for later analysis.
-Project: Get and Cleaning Data Course Project
-Datasource: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Output data: tidy_data.csv
+
+* Project: Get and Cleaning Data Course Project
+* Datasource: [data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+* Output data: tidy_data.csv
 
 #### To run analysis
-`source("run_analysis.R")`
+```R
+source("run_analysis.R")
+```
 
 #### Require library
 > tidyr, plyr, dplyr, data.table

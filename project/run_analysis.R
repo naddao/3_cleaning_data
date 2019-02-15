@@ -138,6 +138,6 @@ tidy_data <- selected_features %>%
 
 # writing tidy data to file
 print("----------Writing tidy data to file-----------")
-write_csv_file(tidy_data, "tidy_data.csv")
+write_csv_file(tidy_data, "tidy_data.txt")
 
 print("----------Done-----------")

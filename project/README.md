@@ -1,16 +1,22 @@
-============================To run analysis====================
-source("run_analysis.R")
+# Project Description
+To collect, work with and clean dataset. To prepare tidy data that can be used for later analysis.
+Project: Get and Cleaning Data Course Project
+Datasource: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Output data: tidy_data.csv
 
-===========================Require library===================
-tidyr, plyr, dplyr, data.table
+#### To run analysis
+`source("run_analysis.R")`
 
-==========================Files=====================
-CODEBOOKS.txt - Description of collected data
-README.txt - Detail of analysis process.
-tidy_data.txt - tidy data which is output file from analysis.
-run_analysis.R - R script to perform analysis.
+#### Require library
+> tidyr, plyr, dplyr, data.table
 
-==========================Steps of analysis=====================
+#### Files
+* CODEBOOKS.txt - Description of collected data
+* README.txt - Detail of analysis process.
+* tidy_data.txt - tidy data which is output file from analysis.
+* run_analysis.R - R script to perform analysis.
+
+#### Steps of analysis
 1. download original dataset
 2. unzip original dataset.
 3. load all available activities info data from "activity_labels.txt"
@@ -32,4 +38,3 @@ run_analysis.R - R script to perform analysis.
 9. calculate tidy data by average each measurement for each activity and subject
 10. write tidy data to file as "tidy_data.txt"
 
-=================================================================

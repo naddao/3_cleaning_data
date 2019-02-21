@@ -10,7 +10,7 @@ Data collected from the experiments that have been carried out with a group of 3
 
 ## Description
 
-Original data were collected from group of persons wearing a smartphone(Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope to captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz. The experiments have been video recored and label the data manually. The obtained data set has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% of the test data.
+Original data were collected from group of persons wearing a smartphone(Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope to captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50 Hz. Data collected from accelerometer the unit are m/s2 and data collected from gyroscope the unit are radians/second. The experiments have been video recored and label the data manually. The obtained data set has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% of the test data.
 
 Time Domain signals of accelerometer were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. The acceleration signal was the seperated into body and gravity acceleration signal using another low pass Butherworth filter with a corner frequency of 0.3 Hz
 
@@ -70,7 +70,7 @@ Time domain signal of accelerometer in XYZ direction. Using low pass Butherworth
 - tgravity_acc_std_z
 
 -----------------------------------
-Time domain signal of gyrometer(tbody_gyro) in XYZ direction. Estimated value from signal by mean.
+Time domain signal of gyrometer(tbody_gyro) in XYZ direction. Estimated value from signal by mean. 
 - tbody_gyro_mean_x
 - tbody_gyro_mean_y
 - tbody_gyro_mean_z
